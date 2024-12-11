@@ -1,0 +1,13 @@
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\bin\Debug\net8.0\DeleteContact.Infrastructure.deps.json
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\bin\Debug\net8.0\DeleteContact.Infrastructure.dll
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\bin\Debug\net8.0\DeleteContact.Infrastructure.pdb
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.csproj.AssemblyReference.cache
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.AssemblyInfoInputs.cache
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.AssemblyInfo.cs
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.sourcelink.json
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.dll
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\refint\DeleteContact.Infrastructure.dll
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.pdb
+E:\Projeto Micro Cadastro\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\ref\DeleteContact.Infrastructure.dll
