@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteContact.Infrastructur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestesUnitarios", "TestesUnitarios\TestesUnitarios.csproj", "{60FE5D2C-3A55-4F9A-A7C1-782B43811E80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteContact.Worker", "DeleteContact.Worker\DeleteContact.Worker.csproj", "{7190DF43-5106-4972-A474-C8F4083AE3B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteContact.Worker", "DeleteContact.Worker\DeleteContact.Worker.csproj", "{7190DF43-5106-4972-A474-C8F4083AE3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestesIntegracao", "TestesIntegracao\TestesIntegracao.csproj", "{74FF7E0A-F6B1-4706-9A4A-DCA8AEAC1BF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7190DF43-5106-4972-A474-C8F4083AE3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7190DF43-5106-4972-A474-C8F4083AE3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7190DF43-5106-4972-A474-C8F4083AE3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74FF7E0A-F6B1-4706-9A4A-DCA8AEAC1BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FF7E0A-F6B1-4706-9A4A-DCA8AEAC1BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FF7E0A-F6B1-4706-9A4A-DCA8AEAC1BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FF7E0A-F6B1-4706-9A4A-DCA8AEAC1BF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

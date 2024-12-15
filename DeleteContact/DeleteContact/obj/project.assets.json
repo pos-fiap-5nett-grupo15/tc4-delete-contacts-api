@@ -4075,11 +4075,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\DeleteContact.Api.csproj",
+      "projectUniqueName": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\DeleteContact.Api.csproj",
       "projectName": "DeleteContact.Api",
-      "projectPath": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\DeleteContact.Api.csproj",
+      "projectPath": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\DeleteContact.Api.csproj",
       "packagesPath": "C:\\Users\\evand\\.nuget\\packages\\",
-      "outputPath": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\obj\\",
+      "outputPath": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4101,8 +4101,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DeleteContact.Application.csproj": {
-              "projectPath": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DeleteContact.Application.csproj"
+            "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DeleteContact.Application.csproj": {
+              "projectPath": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DeleteContact.Application.csproj"
             }
           }
         }

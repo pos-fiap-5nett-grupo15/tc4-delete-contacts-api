@@ -1,117 +1,121 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\",
+  "WorkspaceRootPath": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.application\\consumers\\contact\\deletecontact\\deletecontactconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74FF7E0A-F6B1-4706-9A4A-DCA8AEAC1BF6}|TestesIntegracao\\TestesIntegracao.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\testesintegracao\\deletecontactbyidintegracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FF7E0A-F6B1-4706-9A4A-DCA8AEAC1BF6}|TestesIntegracao\\TestesIntegracao.csproj|solutionrelative:testesintegracao\\deletecontactbyidintegracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.application\\consumers\\contact\\deletecontact\\deletecontactconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|solutionrelative:deletecontact.application\\consumers\\contact\\deletecontact\\deletecontactconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.application\\consumers\\contact\\deletecontact\\ideletecontactconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.application\\consumers\\contact\\deletecontact\\ideletecontactconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|solutionrelative:deletecontact.application\\consumers\\contact\\deletecontact\\ideletecontactconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.application\\dtos\\contact\\deletecontact\\deletecontactresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.application\\dtos\\contact\\deletecontact\\deletecontactresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|solutionrelative:deletecontact.application\\dtos\\contact\\deletecontact\\deletecontactresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.application\\dtos\\contact\\deletecontact\\deletecontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.application\\dtos\\contact\\deletecontact\\deletecontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|solutionrelative:deletecontact.application\\dtos\\contact\\deletecontact\\deletecontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.worker\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.worker\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|solutionrelative:deletecontact.worker\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60FE5D2C-3A55-4F9A-A7C1-782B43811E80}|TestesUnitarios\\TestesUnitarios.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\testesunitarios\\deletecontactbyidtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60FE5D2C-3A55-4F9A-A7C1-782B43811E80}|TestesUnitarios\\TestesUnitarios.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\testesunitarios\\deletecontactbyidtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60FE5D2C-3A55-4F9A-A7C1-782B43811E80}|TestesUnitarios\\TestesUnitarios.csproj|solutionrelative:testesunitarios\\deletecontactbyidtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50907C36-0C2A-4EBC-8C0C-C70DCC642800}|DeleteContact\\DeleteContact.Api.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact\\controllers\\contacts\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50907C36-0C2A-4EBC-8C0C-C70DCC642800}|DeleteContact\\DeleteContact.Api.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact\\controllers\\contacts\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50907C36-0C2A-4EBC-8C0C-C70DCC642800}|DeleteContact\\DeleteContact.Api.csproj|solutionrelative:deletecontact\\controllers\\contacts\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.application\\handlers\\contact\\deletecontact\\deletecontacthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.application\\handlers\\contact\\deletecontact\\deletecontacthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|solutionrelative:deletecontact.application\\handlers\\contact\\deletecontact\\deletecontacthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.worker\\consumers\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.worker\\consumers\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|solutionrelative:deletecontact.worker\\consumers\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.application\\messages\\deletecontactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.application\\messages\\deletecontactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DFE1B34-2457-4E79-9F25-16156E1022F2}|DeleteContact.Application\\DeleteContact.Application.csproj|solutionrelative:deletecontact.application\\messages\\deletecontactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|solutionrelative:deletecontact.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|solutionrelative:deletecontact.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.worker\\deletecontact.worker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.worker\\deletecontact.worker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|solutionrelative:deletecontact.worker\\deletecontact.worker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50907C36-0C2A-4EBC-8C0C-C70DCC642800}|DeleteContact\\DeleteContact.Api.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50907C36-0C2A-4EBC-8C0C-C70DCC642800}|DeleteContact\\DeleteContact.Api.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50907C36-0C2A-4EBC-8C0C-C70DCC642800}|DeleteContact\\DeleteContact.Api.csproj|solutionrelative:deletecontact\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7190DF43-5106-4972-A474-C8F4083AE3B9}|DeleteContact.Worker\\DeleteContact.Worker.csproj|solutionrelative:deletecontact.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50907C36-0C2A-4EBC-8C0C-C70DCC642800}|DeleteContact\\DeleteContact.Api.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{50907C36-0C2A-4EBC-8C0C-C70DCC642800}|DeleteContact\\DeleteContact.Api.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{50907C36-0C2A-4EBC-8C0C-C70DCC642800}|DeleteContact\\DeleteContact.Api.csproj|solutionrelative:deletecontact\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\services\\contact\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\services\\contact\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|solutionrelative:deletecontact.infrastructure\\services\\contact\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50907C36-0C2A-4EBC-8C0C-C70DCC642800}|DeleteContact\\DeleteContact.Api.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50907C36-0C2A-4EBC-8C0C-C70DCC642800}|DeleteContact\\DeleteContact.Api.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50907C36-0C2A-4EBC-8C0C-C70DCC642800}|DeleteContact\\DeleteContact.Api.csproj|solutionrelative:deletecontact\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\unitofwork\\deletecontactunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\unitofwork\\deletecontactunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|solutionrelative:deletecontact.infrastructure\\unitofwork\\deletecontactunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\unitofwork\\ideletecontactunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\unitofwork\\ideletecontactunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|solutionrelative:deletecontact.infrastructure\\unitofwork\\ideletecontactunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\settings\\rabbitmqproducersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\settings\\rabbitmqproducersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|solutionrelative:deletecontact.infrastructure\\settings\\rabbitmqproducersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\settings\\rabbitmqconsumersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\settings\\rabbitmqconsumersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|solutionrelative:deletecontact.infrastructure\\settings\\rabbitmqconsumersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\settings\\irabbitmqproducersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\settings\\irabbitmqproducersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|solutionrelative:deletecontact.infrastructure\\settings\\irabbitmqproducersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\settings\\irabbitmqconsumersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\settings\\irabbitmqconsumersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|solutionrelative:deletecontact.infrastructure\\settings\\irabbitmqconsumersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\services\\contact\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\services\\contact\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|solutionrelative:deletecontact.infrastructure\\services\\contact\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\repositories\\contact\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\repositories\\contact\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|solutionrelative:deletecontact.infrastructure\\repositories\\contact\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\repositories\\contact\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\repositories\\contact\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|solutionrelative:deletecontact.infrastructure\\repositories\\contact\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|e:\\projeto micro cadastro\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\deletecontact.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|c:\\users\\evand\\onedrive\\\u00E1rea de trabalho\\projeto\\tc3-delete-contacts-api\\deletecontact\\deletecontact.infrastructure\\deletecontact.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E783B99E-48E4-4AA2-A626-21E864B0C99A}|DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj|solutionrelative:deletecontact.infrastructure\\deletecontact.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -122,119 +126,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeleteContactByIdTest.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\TestesUnitarios\\DeleteContactByIdTest.cs",
-              "RelativeDocumentMoniker": "TestesUnitarios\\DeleteContactByIdTest.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\TestesUnitarios\\DeleteContactByIdTest.cs",
-              "RelativeToolTip": "TestesUnitarios\\DeleteContactByIdTest.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwDEAAAAJAAAA",
+              "DocumentIndex": 0,
+              "Title": "DeleteContactByIdIntegracao.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\TestesIntegracao\\DeleteContactByIdIntegracao.cs",
+              "RelativeDocumentMoniker": "TestesIntegracao\\DeleteContactByIdIntegracao.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\TestesIntegracao\\DeleteContactByIdIntegracao.cs",
+              "RelativeToolTip": "TestesIntegracao\\DeleteContactByIdIntegracao.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:15:11.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RabbitMQConsumer.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Consumers\\RabbitMQConsumer.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Worker\\Consumers\\RabbitMQConsumer.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Consumers\\RabbitMQConsumer.cs",
-              "RelativeToolTip": "DeleteContact.Worker\\Consumers\\RabbitMQConsumer.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAxwCAAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:13:34.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Startup.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Worker\\Startup.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Startup.cs",
-              "RelativeToolTip": "DeleteContact.Worker\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:07:14.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Program.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Worker\\Program.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Program.cs",
-              "RelativeToolTip": "DeleteContact.Worker\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:06:28.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DeleteContactMessage.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Messages\\DeleteContactMessage.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Application\\Messages\\DeleteContactMessage.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Messages\\DeleteContactMessage.cs",
-              "RelativeToolTip": "DeleteContact.Application\\Messages\\DeleteContactMessage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:54:39.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IDeleteContactConsumer.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\IDeleteContactConsumer.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\IDeleteContactConsumer.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\IDeleteContactConsumer.cs",
-              "RelativeToolTip": "DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\IDeleteContactConsumer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T01:36:03.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeleteContactHandler.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Handlers\\Contact\\DeleteContact\\DeleteContactHandler.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Application\\Handlers\\Contact\\DeleteContact\\DeleteContactHandler.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Handlers\\Contact\\DeleteContact\\DeleteContactHandler.cs",
-              "RelativeToolTip": "DeleteContact.Application\\Handlers\\Contact\\DeleteContact\\DeleteContactHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAowBsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T01:40:59.218Z",
+              "WhenOpened": "2024-12-15T21:00:43.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ContactsController.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\Controllers\\Contacts\\ContactsController.cs",
-              "RelativeDocumentMoniker": "DeleteContact\\Controllers\\Contacts\\ContactsController.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\Controllers\\Contacts\\ContactsController.cs",
-              "RelativeToolTip": "DeleteContact\\Controllers\\Contacts\\ContactsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA3AAAA",
+              "Title": "DeleteContactByIdTest.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\TestesUnitarios\\DeleteContactByIdTest.cs",
+              "RelativeDocumentMoniker": "TestesUnitarios\\DeleteContactByIdTest.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\TestesUnitarios\\DeleteContactByIdTest.cs",
+              "RelativeToolTip": "TestesUnitarios\\DeleteContactByIdTest.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwDEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T22:47:38.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T20:15:11.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "RabbitMQConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Consumers\\RabbitMQConsumer.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Worker\\Consumers\\RabbitMQConsumer.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Consumers\\RabbitMQConsumer.cs",
+              "RelativeToolTip": "DeleteContact.Worker\\Consumers\\RabbitMQConsumer.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAxwCAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:13:34.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Startup.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Worker\\Startup.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Startup.cs",
+              "RelativeToolTip": "DeleteContact.Worker\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:07:14.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Program.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Worker\\Program.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Program.cs",
+              "RelativeToolTip": "DeleteContact.Worker\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:06:28.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeleteContactMessage.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Messages\\DeleteContactMessage.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Application\\Messages\\DeleteContactMessage.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Messages\\DeleteContactMessage.cs",
+              "RelativeToolTip": "DeleteContact.Application\\Messages\\DeleteContactMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:54:39.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDeleteContactConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\IDeleteContactConsumer.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\IDeleteContactConsumer.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\IDeleteContactConsumer.cs",
+              "RelativeToolTip": "DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\IDeleteContactConsumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:36:03.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteContactHandler.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Handlers\\Contact\\DeleteContact\\DeleteContactHandler.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Application\\Handlers\\Contact\\DeleteContact\\DeleteContactHandler.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Handlers\\Contact\\DeleteContact\\DeleteContactHandler.cs",
+              "RelativeToolTip": "DeleteContact.Application\\Handlers\\Contact\\DeleteContact\\DeleteContactHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:40:59.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\Controllers\\Contacts\\ContactsController.cs",
+              "RelativeDocumentMoniker": "DeleteContact\\Controllers\\Contacts\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\Controllers\\Contacts\\ContactsController.cs",
+              "RelativeToolTip": "DeleteContact\\Controllers\\Contacts\\ContactsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:47:38.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DeleteContactConsumer.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\DeleteContactConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\DeleteContactConsumer.cs",
               "RelativeDocumentMoniker": "DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\DeleteContactConsumer.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\DeleteContactConsumer.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\DeleteContactConsumer.cs",
               "RelativeToolTip": "DeleteContact.Application\\Consumers\\Contact\\DeleteContact\\DeleteContactConsumer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -243,250 +252,231 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Worker.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Worker.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Worker.cs",
               "RelativeDocumentMoniker": "DeleteContact.Worker\\Worker.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Worker.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\Worker.cs",
               "RelativeToolTip": "DeleteContact.Worker\\Worker.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:05:56.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T20:05:56.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteContactRequest.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactRequest.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactRequest.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactRequest.cs",
+              "RelativeToolTip": "DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:38:55.087Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DeleteContactRequest.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactRequest.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactRequest.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactRequest.cs",
-              "RelativeToolTip": "DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T01:38:55.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "DeleteContactResponse.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactResponse.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactResponse.cs",
               "RelativeDocumentMoniker": "DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactResponse.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactResponse.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactResponse.cs",
               "RelativeToolTip": "DeleteContact.Application\\DTOs\\Contact\\DeleteContact\\DeleteContactResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T01:39:07.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DeleteContact.Worker",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\DeleteContact.Worker.csproj",
-              "RelativeDocumentMoniker": "DeleteContact.Worker\\DeleteContact.Worker.csproj",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\DeleteContact.Worker.csproj",
-              "RelativeToolTip": "DeleteContact.Worker\\DeleteContact.Worker.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-10T20:07:48.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T01:39:07.807Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\Program.cs",
-              "RelativeDocumentMoniker": "DeleteContact\\Program.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\Program.cs",
-              "RelativeToolTip": "DeleteContact\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T22:31:32.787Z",
-              "EditorCaption": ""
+              "Title": "DeleteContact.Worker.csproj",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\DeleteContact.Worker.csproj",
+              "RelativeDocumentMoniker": "DeleteContact.Worker\\DeleteContact.Worker.csproj",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\DeleteContact.Worker.csproj",
+              "RelativeToolTip": "DeleteContact.Worker\\DeleteContact.Worker.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-10T20:07:48.026Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\appsettings.json",
-              "RelativeDocumentMoniker": "DeleteContact.Worker\\appsettings.json",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\appsettings.json",
-              "RelativeToolTip": "DeleteContact.Worker\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-10T20:05:43.284Z",
-              "EditorCaption": ""
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\Program.cs",
+              "RelativeDocumentMoniker": "DeleteContact\\Program.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\Program.cs",
+              "RelativeToolTip": "DeleteContact\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:31:32.787Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\appsettings.json",
-              "RelativeDocumentMoniker": "DeleteContact\\appsettings.json",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\appsettings.json",
-              "RelativeToolTip": "DeleteContact\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\appsettings.json",
+              "RelativeDocumentMoniker": "DeleteContact.Worker\\appsettings.json",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\appsettings.json",
+              "RelativeToolTip": "DeleteContact.Worker\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-27T22:31:04.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T20:05:43.284Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "IContactService.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Services\\Contact\\IContactService.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Services\\Contact\\IContactService.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Services\\Contact\\IContactService.cs",
-              "RelativeToolTip": "DeleteContact.Infrastructure\\Services\\Contact\\IContactService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:57:48.113Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\appsettings.json",
+              "RelativeDocumentMoniker": "DeleteContact\\appsettings.json",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\appsettings.json",
+              "RelativeToolTip": "DeleteContact\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T22:31:04.958Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\Startup.cs",
-              "RelativeDocumentMoniker": "DeleteContact\\Startup.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\Startup.cs",
-              "RelativeToolTip": "DeleteContact\\Startup.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwDIAAAAJAAAA",
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Services\\Contact\\IContactService.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Services\\Contact\\IContactService.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Services\\Contact\\IContactService.cs",
+              "RelativeToolTip": "DeleteContact.Infrastructure\\Services\\Contact\\IContactService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T22:33:05.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:57:48.113Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "DeleteContactUnitOfWork.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\UnitOfWork\\DeleteContactUnitOfWork.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\UnitOfWork\\DeleteContactUnitOfWork.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\UnitOfWork\\DeleteContactUnitOfWork.cs",
-              "RelativeToolTip": "DeleteContact.Infrastructure\\UnitOfWork\\DeleteContactUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\Startup.cs",
+              "RelativeDocumentMoniker": "DeleteContact\\Startup.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact\\Startup.cs",
+              "RelativeToolTip": "DeleteContact\\Startup.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwDIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:25:47.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T22:33:05.043Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "IDeleteContactUnitOfWork.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\UnitOfWork\\IDeleteContactUnitOfWork.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\UnitOfWork\\IDeleteContactUnitOfWork.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\UnitOfWork\\IDeleteContactUnitOfWork.cs",
-              "RelativeToolTip": "DeleteContact.Infrastructure\\UnitOfWork\\IDeleteContactUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Title": "DeleteContactUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\UnitOfWork\\DeleteContactUnitOfWork.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\UnitOfWork\\DeleteContactUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\UnitOfWork\\DeleteContactUnitOfWork.cs",
+              "RelativeToolTip": "DeleteContact.Infrastructure\\UnitOfWork\\DeleteContactUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:27:11.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:25:47.082Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "RabbitMQProducerSettings.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\RabbitMQProducerSettings.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Settings\\RabbitMQProducerSettings.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\RabbitMQProducerSettings.cs",
-              "RelativeToolTip": "DeleteContact.Infrastructure\\Settings\\RabbitMQProducerSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Title": "IDeleteContactUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\UnitOfWork\\IDeleteContactUnitOfWork.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\UnitOfWork\\IDeleteContactUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\UnitOfWork\\IDeleteContactUnitOfWork.cs",
+              "RelativeToolTip": "DeleteContact.Infrastructure\\UnitOfWork\\IDeleteContactUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:25:16.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:27:11.212Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "RabbitMQConsumerSettings.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\RabbitMQConsumerSettings.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Settings\\RabbitMQConsumerSettings.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\RabbitMQConsumerSettings.cs",
-              "RelativeToolTip": "DeleteContact.Infrastructure\\Settings\\RabbitMQConsumerSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "RabbitMQProducerSettings.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\RabbitMQProducerSettings.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Settings\\RabbitMQProducerSettings.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\RabbitMQProducerSettings.cs",
+              "RelativeToolTip": "DeleteContact.Infrastructure\\Settings\\RabbitMQProducerSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:24:59.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:25:16.052Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "IRabbitMQProducerSettings.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\IRabbitMQProducerSettings.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Settings\\IRabbitMQProducerSettings.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\IRabbitMQProducerSettings.cs",
-              "RelativeToolTip": "DeleteContact.Infrastructure\\Settings\\IRabbitMQProducerSettings.cs",
+              "Title": "RabbitMQConsumerSettings.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\RabbitMQConsumerSettings.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Settings\\RabbitMQConsumerSettings.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\RabbitMQConsumerSettings.cs",
+              "RelativeToolTip": "DeleteContact.Infrastructure\\Settings\\RabbitMQConsumerSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:24:26.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:24:59.809Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "IRabbitMQConsumerSettings.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\IRabbitMQConsumerSettings.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Settings\\IRabbitMQConsumerSettings.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\IRabbitMQConsumerSettings.cs",
-              "RelativeToolTip": "DeleteContact.Infrastructure\\Settings\\IRabbitMQConsumerSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "IRabbitMQProducerSettings.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\IRabbitMQProducerSettings.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Settings\\IRabbitMQProducerSettings.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\IRabbitMQProducerSettings.cs",
+              "RelativeToolTip": "DeleteContact.Infrastructure\\Settings\\IRabbitMQProducerSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:24:05.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ContactRepository.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Repositories\\Contact\\ContactRepository.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Repositories\\Contact\\ContactRepository.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Repositories\\Contact\\ContactRepository.cs",
-              "RelativeToolTip": "DeleteContact.Infrastructure\\Repositories\\Contact\\ContactRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:26:53.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IContactRepository.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Repositories\\Contact\\IContactRepository.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Repositories\\Contact\\IContactRepository.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Repositories\\Contact\\IContactRepository.cs",
-              "RelativeToolTip": "DeleteContact.Infrastructure\\Repositories\\Contact\\IContactRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:56:54.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:24:26.017Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "ContactService.cs",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Services\\Contact\\ContactService.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Services\\Contact\\ContactService.cs",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Services\\Contact\\ContactService.cs",
-              "RelativeToolTip": "DeleteContact.Infrastructure\\Services\\Contact\\ContactService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Title": "IRabbitMQConsumerSettings.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\IRabbitMQConsumerSettings.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Settings\\IRabbitMQConsumerSettings.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Settings\\IRabbitMQConsumerSettings.cs",
+              "RelativeToolTip": "DeleteContact.Infrastructure\\Settings\\IRabbitMQConsumerSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:23:01.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:24:05.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Repositories\\Contact\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Repositories\\Contact\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Repositories\\Contact\\ContactRepository.cs",
+              "RelativeToolTip": "DeleteContact.Infrastructure\\Repositories\\Contact\\ContactRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:26:53.469Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Repositories\\Contact\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Repositories\\Contact\\IContactRepository.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Repositories\\Contact\\IContactRepository.cs",
+              "RelativeToolTip": "DeleteContact.Infrastructure\\Repositories\\Contact\\IContactRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:56:54.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Services\\Contact\\ContactService.cs",
+              "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\Services\\Contact\\ContactService.cs",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\Services\\Contact\\ContactService.cs",
+              "RelativeToolTip": "DeleteContact.Infrastructure\\Services\\Contact\\ContactService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:23:01.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "DeleteContact.Infrastructure.csproj",
-              "DocumentMoniker": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj",
               "RelativeDocumentMoniker": "DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj",
-              "ToolTip": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\evand\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj",
               "RelativeToolTip": "DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-04T18:23:08.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:23:08.982Z"
             }
           ]
         }

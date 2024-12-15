@@ -4045,11 +4045,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DeleteContact.Application.csproj",
+      "projectUniqueName": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DeleteContact.Application.csproj",
       "projectName": "DeleteContact.Application",
-      "projectPath": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DeleteContact.Application.csproj",
+      "projectPath": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DeleteContact.Application.csproj",
       "packagesPath": "C:\\Users\\evand\\.nuget\\packages\\",
-      "outputPath": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\obj\\",
+      "outputPath": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4071,8 +4071,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj": {
-              "projectPath": "E:\\Projeto Micro Cadastro\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj"
+            "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj"
             }
           }
         }
