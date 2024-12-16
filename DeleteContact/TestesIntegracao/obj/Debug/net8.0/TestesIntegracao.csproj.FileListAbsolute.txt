@@ -195,3 +195,4 @@ C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\Delete
 C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\DeleteContact\TestesIntegracao\obj\Debug\net8.0\TestesIntegracao.pdb
 C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\DeleteContact\TestesIntegracao\obj\Debug\net8.0\TestesIntegracao.genruntimeconfig.cache
 C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\DeleteContact\TestesIntegracao\obj\Debug\net8.0\ref\TestesIntegracao.dll
+C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\DeleteContact\TestesIntegracao\bin\Debug\net8.0\appsettings.test.json

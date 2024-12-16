@@ -19,9 +19,9 @@ namespace TestesIntegracao
              .AddJsonFile("appsettings.test.json")
              .Build();
 
-            Environment.SetEnvironmentVariable("TECH1_API_SEC_KEY", "IGVRaqQssHbDh3adxV22rw73SmOusqrKHomyJe33TrM=");
-            Environment.SetEnvironmentVariable("TECH1_API_SEC_IV", "iqs1k4XU6wADBBOP3cpg5A==");
-            
+            Environment.SetEnvironmentVariable("TECH1_API_SEC_KEY", configuration["DataBaseSec:TECH1_API_SEC_KEY"]);
+            Environment.SetEnvironmentVariable("TECH1_API_SEC_IV", configuration["DataBaseSec:TECH1_API_SEC_IV"]);
+
             _database = new TechDatabase(configuration, new CryptoService(null));
 
             _repository = new ContactRepository(_database);
@@ -33,8 +33,8 @@ namespace TestesIntegracao
             var contact = new ContactEntity
             {
                 Nome = "Miguel Angelo",
-                Email = "miguel@example.com",
-                Ddd = 31,
+                Email = "miguel@exemplo.com",
+                Ddd = 11,
                 Telefone = 55667788
             };
             await _repository.CreateAsync(contact);
