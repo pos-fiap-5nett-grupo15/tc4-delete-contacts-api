@@ -1,5 +1,5 @@
 ﻿using Dapper;
-using TechChallenge.Infrastructure.UnitOfWork;
+using TechChallenge3.Infrastructure.UnitOfWork;
 using TechChallenge3.Domain.Entities.Contact;
 
 namespace DeleteContact.Infrastructure.Repositories.Contact
