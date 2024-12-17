@@ -1,29 +1,32 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="FluentValidation" Version="11.11.0" />
-    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" Version="9.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0" />
-    <PackageReference Include="prometheus-net" Version="8.2.1" />
-    <PackageReference Include="prometheus-net.AspNetCore" Version="8.2.1" />
-    <PackageReference Include="RabbitMQ.Client" Version="7.0.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.1.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.1.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="7.1.0" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
-    <PackageReference Include="TechChallenge.Common" Version="1.1.0" />
-    <PackageReference Include="TechChallenge.Infrastructure" Version="1.1.0" />
-    <PackageReference Include="TechChallenge3.Domain" Version="1.0.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="11.11.0" />
+		<PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0" />
+		<PackageReference Include="prometheus-net" Version="8.2.1" />
+		<PackageReference Include="prometheus-net.AspNetCore" Version="8.2.1" />
+		<PackageReference Include="RabbitMQ.Client" Version="7.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="7.1.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.1.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="7.1.0" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+		<!-- <ProjectReference Include="..\..\..\tc3-nugets\TechChallenge3.Common\TechChallenge3.Common.csproj" /> -->
+		<!-- <ProjectReference Include="..\..\..\tc3-nugets\TechChallenge3.Domain\TechChallenge3.Domain.csproj" /> -->
+		<!-- <ProjectReference Include="..\..\..\tc3-nugets\TechChallenge3.Infrastructure\TechChallenge3.Infrastructure.csproj" /> -->
+		<PackageReference Include="TechChallenge3.Common" Version="1.3.0" />
+		<PackageReference Include="TechChallenge3.Domain" Version="1.0.0" />
+		<PackageReference Include="TechChallenge3.Infrastructure" Version="1.1.0" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DeleteContact.Infrastructure\DeleteContact.Infrastructure.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\DeleteContact.Infrastructure\DeleteContact.Infrastructure.csproj" />
+	</ItemGroup>
 
 </Project>
