@@ -1,5 +1,5 @@
 ﻿using DeleteContact.Infrastructure.Repositories.Contact;
-using TechChallenge3.Infrastructure.UnitOfWork;
+using TechChallenge.Infrastructure.UnitOfWork;
 
 namespace DeleteContact.Infrastructure.UnitOfWork
 {

@@ -6,9 +6,9 @@ using DeleteContact.Infrastructure.Settings;
 using DeleteContact.Infrastructure.UnitOfWork;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using TechChallenge3.Infrastructure.Crypto;
-using TechChallenge3.Infrastructure.Settings;
-using TechChallenge3.Infrastructure.UnitOfWork;
+using TechChallenge.Infrastructure.Crypto;
+using TechChallenge.Infrastructure.Settings;
+using TechChallenge.Infrastructure.UnitOfWork;
 
 namespace CreateContract.Worker
 {

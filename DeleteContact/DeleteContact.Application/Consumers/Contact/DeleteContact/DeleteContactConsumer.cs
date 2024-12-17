@@ -2,7 +2,7 @@
 using DeleteContact.Infrastructure.Services.Contact;
 using DeleteContact.Infrastructure.Settings;
 using Microsoft.Extensions.Logging;
-using TechChallenge3.Common.RabbitMQ;
+using TechChallenge.Common.RabbitMQ;
 
 namespace DeleteContact.Application.Consumers.Contact.DeleteContact
 {

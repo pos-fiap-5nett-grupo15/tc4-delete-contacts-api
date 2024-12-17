@@ -127,14 +127,3 @@ C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\Delete
 C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\DeleteContact.Api.pdb
 C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\DeleteContact.Api.genruntimeconfig.cache
 C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\ref\DeleteContact.Api.dll
-C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\DeleteContact.Api.csproj.AssemblyReference.cache
-C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\DeleteContact.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\DeleteContact.Api.AssemblyInfoInputs.cache
-C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\DeleteContact.Api.AssemblyInfo.cs
-C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\DeleteContact.Api.csproj.CoreCompileInputs.cache
-C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\DeleteContact.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\DeleteContact.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\DeleteContact.Api.sourcelink.json
-C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\DeleteContact.Api.dll
-C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\refint\DeleteContact.Api.dll
-C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact\obj\Debug\net8.0\DeleteContact.Api.pdb

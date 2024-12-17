@@ -5,7 +5,7 @@ using DeleteContact.Infrastructure.Services.Contact;
 using DeleteContact.Infrastructure.Settings;
 using DeleteContact.Infrastructure.UnitOfWork;
 using FluentValidation;
-using TechChallenge3.Infrastructure.DefaultStartup;
+using TechChallenge.Infrastructure.DefaultStartup;
 
 namespace DeleteContact.Api
 {

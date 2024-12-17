@@ -1,4 +1,4 @@
-﻿using TechChallenge3.Common.DTOs;
+﻿using TechChallenge.Common.DTOs;
 
 namespace DeleteContact.Application.DTOs.Contact.DeleteContact
 {
