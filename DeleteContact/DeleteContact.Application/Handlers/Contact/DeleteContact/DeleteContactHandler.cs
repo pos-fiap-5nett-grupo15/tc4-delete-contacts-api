@@ -6,6 +6,7 @@ using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using TechChallenge3.Common.RabbitMQ;
+using TechChallenge3.Domain.Enums;
 
 
 namespace DeleteContact.Application.Handlers.Contact.DeleteContact
@@ -29,21 +30,50 @@ namespace DeleteContact.Application.Handlers.Contact.DeleteContact
             _rabbitMQProducerSettings = rabbitMQProducerSettings;
         }
 
-        public async Task<DeleteContactResponse> Handle(DeleteContactRequest requisicao, CancellationToken ct)
+        public async Task<DeleteContactResponse> Handle(DeleteContactRequest request, CancellationToken ct)
         {
-            if (Validate(requisicao) is var validacao && !string.IsNullOrWhiteSpace(validacao.ErrorDescription))
-                return validacao;
+            try
+            {
+                if (Validate(request) is var validacao && !string.IsNullOrWhiteSpace(validacao.ErrorDescription))
+                    return validacao;
 
-            await _contactService.DeleteByIdAsync(requisicao.Id);
+                if (await _contactService.GetByIdAsync(request.Id) is var contact && contact is not null)
+                {
+                    await _contactService.UpdateStatusByIdAsync(contact, ContactSituationEnum.PENDENTE_DELECAO);
 
-            await RabbitMQManager.Publish(
-                new DeleteContactMessage { Id = requisicao.Id },
-                _rabbitMQProducerSettings.Host,
-                _rabbitMQProducerSettings.Exchange,
-                _rabbitMQProducerSettings.RoutingKey,
-                ct);
+                    await PublishByRoutingKey(
+                        request.Id,
+                        _rabbitMQProducerSettings,
+                        _rabbitMQProducerSettings.RoutingKey,
+                        ct);
 
-            return new DeleteContactResponse();
+                    return new DeleteContactResponse();
+                }
+                else
+                {
+                    _logger.LogError($"An error occurr while deleting contact ID '{request.Id}'.");
+
+                    await PublishByRoutingKey(
+                        request.Id,
+                        _rabbitMQProducerSettings,
+                        _rabbitMQProducerSettings.RoutingKeyInvalid,
+                        ct);
+
+                    return new DeleteContactResponse();
+                }
+            }
+            catch (Exception e)
+            {
+                _logger.LogCritical(e, $"An error occurr while deleting contact ID '{request.Id}': {e.Message}.");
+
+                await PublishByRoutingKey(
+                    request.Id, 
+                    _rabbitMQProducerSettings, 
+                    _rabbitMQProducerSettings.RoutingKeyInvalid,
+                    ct);
+
+                throw;
+            }
         }
 
         public DeleteContactResponse Validate(DeleteContactRequest requisicao)
@@ -60,6 +90,23 @@ namespace DeleteContact.Application.Handlers.Contact.DeleteContact
             }
 
             return retorno;
+        }
+
+        internal static async Task PublishByRoutingKey(
+            int contactId,
+            IRabbitMQProducerSettings rabbitMQProducerSettings,
+            string routingKey,
+            CancellationToken ct)
+        {
+            await RabbitMQManager.PublishAsync(
+                message: new DeleteContactMessage { Id = contactId },
+                hostName: rabbitMQProducerSettings.Host,
+                port: rabbitMQProducerSettings.Port,
+                userName: rabbitMQProducerSettings.Username,
+                password: rabbitMQProducerSettings.Password,
+                exchangeName: rabbitMQProducerSettings.Exchange,
+                routingKeyName: routingKey,
+                ct);
         }
     }
 }

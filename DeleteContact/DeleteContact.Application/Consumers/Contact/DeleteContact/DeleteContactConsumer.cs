@@ -1,8 +1,9 @@
-﻿using DeleteContact.Application.Messages;
+﻿using DeleteContact.Application.Handlers.Contact.DeleteContact;
+using DeleteContact.Application.Messages;
 using DeleteContact.Infrastructure.Services.Contact;
 using DeleteContact.Infrastructure.Settings;
 using Microsoft.Extensions.Logging;
-using TechChallenge3.Common.RabbitMQ;
+using TechChallenge3.Domain.Enums;
 
 namespace DeleteContact.Application.Consumers.Contact.DeleteContact
 {
@@ -24,13 +25,23 @@ namespace DeleteContact.Application.Consumers.Contact.DeleteContact
 
         public async Task HandleAsync(DeleteContactMessage message, CancellationToken ct)
         {
-            await RabbitMQManager.Publish(
-                new DeleteContactMessage { Id = message.Id },
-                _rabbitMQProducerSettings.Host,
-                _rabbitMQProducerSettings.Exchange,
-                _rabbitMQProducerSettings.RoutingKey,
-                ct);
-            return;
+            try
+            {
+                await _contactService.UpdateStatusByIdAsync((await _contactService.GetByIdAsync(message.Id))!, ContactSituationEnum.PENDENTE_DELECAO);
+                return;
+            }
+            catch (Exception e)
+            {
+                _logger.LogCritical(e, $"An error occurr while deleting contact ID '{message.Id}': {e.Message}.");
+
+                await DeleteContactHandler.PublishByRoutingKey(
+                    message.Id,
+                    _rabbitMQProducerSettings,
+                    _rabbitMQProducerSettings.RoutingKeyInvalid,
+                    ct);
+
+                throw;
+            }
         }
     }
 }
