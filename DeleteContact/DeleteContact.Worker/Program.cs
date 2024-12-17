@@ -1,4 +1,4 @@
-using CreateContract.Worker;
+using DeleteContact.Worker;
 using Microsoft.AspNetCore.Builder;
 
 internal class Program

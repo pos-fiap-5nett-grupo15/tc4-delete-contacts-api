@@ -1,4 +1,4 @@
-﻿using CreateContract.Worker.Consumers;
+﻿using DeleteContact.Worker.Consumers;
 using DeleteContact.Application.Consumers.Contact.DeleteContact;
 using DeleteContact.Infrastructure.RabbitMQ;
 using DeleteContact.Infrastructure.Services.Contact;
@@ -10,7 +10,7 @@ using TechChallenge3.Infrastructure.Crypto;
 using TechChallenge3.Infrastructure.Settings;
 using TechChallenge3.Infrastructure.UnitOfWork;
 
-namespace CreateContract.Worker
+namespace DeleteContact.Worker
 {
     internal class Startup
     {

@@ -4,14 +4,14 @@ WORKDIR /App
 
 COPY ./DeleteContact/. ./
 
-RUN dotnet restore  ./DeleteContract.Worker/DeleteContract.Worker.csproj
-RUN dotnet build ./DeleteContract.Worker/DeleteContract.Worker.csproj
-RUN dotnet publish  ./DeleteContract.Worker/DeleteContract.Worker.csproj -c Release --output Out --no-restore
+RUN dotnet restore  ./DeleteContact.Worker/DeleteContact.Worker.csproj
+RUN dotnet build ./DeleteContact.Worker/DeleteContact.Worker.csproj
+RUN dotnet publish  ./DeleteContact.Worker/DeleteContact.Worker.csproj -c Release --output Out --no-restore
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 
 WORKDIR /App
 COPY --from=build /App/Out/ ./
 
-ENTRYPOINT ["dotnet", "DeleteContract.Worker.dll"]
+ENTRYPOINT ["dotnet", "DeleteContact.Worker.dll"]
 
