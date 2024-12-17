@@ -5,7 +5,7 @@ using DeleteContact.Infrastructure.Settings;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Logging;
-using TechChallenge.Common.RabbitMQ;
+using TechChallenge3.Common.RabbitMQ;
 
 
 namespace DeleteContact.Application.Handlers.Contact.DeleteContact

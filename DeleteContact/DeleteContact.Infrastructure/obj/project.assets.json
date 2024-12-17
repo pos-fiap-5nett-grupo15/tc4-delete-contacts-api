@@ -1490,20 +1490,29 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "TechChallenge.Common/1.1.0": {
+      "TechChallenge3.Common/1.3.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "RabbitMQ.Client": "7.0.0"
         },
         "compile": {
-          "lib/net8.0/TechChallenge.Common.dll": {}
+          "lib/net8.0/TechChallenge3.Common.dll": {}
         },
         "runtime": {
-          "lib/net8.0/TechChallenge.Common.dll": {}
+          "lib/net8.0/TechChallenge3.Common.dll": {}
         }
       },
-      "TechChallenge.Infrastructure/1.1.0": {
+      "TechChallenge3.Domain/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/TechChallenge3.Domain.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/TechChallenge3.Domain.dll": {}
+        }
+      },
+      "TechChallenge3.Infrastructure/1.1.0": {
         "type": "package",
         "dependencies": {
           "Dapper": "2.1.35",
@@ -1520,19 +1529,10 @@
           "prometheus-net.AspNetCore": "8.2.1"
         },
         "compile": {
-          "lib/net8.0/TechChallenge.Infrastructure.dll": {}
+          "lib/net8.0/TechChallenge3.Infrastructure.dll": {}
         },
         "runtime": {
-          "lib/net8.0/TechChallenge.Infrastructure.dll": {}
-        }
-      },
-      "TechChallenge3.Domain/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/TechChallenge3.Domain.dll": {}
-        },
-        "runtime": {
-          "lib/net8.0/TechChallenge3.Domain.dll": {}
+          "lib/net8.0/TechChallenge3.Infrastructure.dll": {}
         }
       }
     }
@@ -3916,28 +3916,16 @@
         "version.txt"
       ]
     },
-    "TechChallenge.Common/1.1.0": {
-      "sha512": "SdA6Kw2A5TZpQoFKqL4MjiXFCxC+EiY0BcaYFHwKx5m5hz+XMZ8b6Y0jPgl6Bs1huz8GM3Z2upl3RjSsVnsc9g==",
+    "TechChallenge3.Common/1.3.0": {
+      "sha512": "DOEJFxfZxRpWvZHVa7blino8VTOOi933liPS9uQ2aOAjn4L8HPgnZjkK1huG+3g683S5pPHAukMULNWp1EBILQ==",
       "type": "package",
-      "path": "techchallenge.common/1.1.0",
+      "path": "techchallenge3.common/1.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net8.0/TechChallenge.Common.dll",
-        "techchallenge.common.1.1.0.nupkg.sha512",
-        "techchallenge.common.nuspec"
-      ]
-    },
-    "TechChallenge.Infrastructure/1.1.0": {
-      "sha512": "6E4c0f46WbnlLc3EoWFYmHw0pL8ar4YotU0qFW2O2Dypw/2p9KXMnG533Yj1BSJUntKctX+uHw1M7HNoBGpuYw==",
-      "type": "package",
-      "path": "techchallenge.infrastructure/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net8.0/TechChallenge.Infrastructure.dll",
-        "techchallenge.infrastructure.1.1.0.nupkg.sha512",
-        "techchallenge.infrastructure.nuspec"
+        "lib/net8.0/TechChallenge3.Common.dll",
+        "techchallenge3.common.1.3.0.nupkg.sha512",
+        "techchallenge3.common.nuspec"
       ]
     },
     "TechChallenge3.Domain/1.0.0": {
@@ -3951,6 +3939,18 @@
         "techchallenge3.domain.1.0.0.nupkg.sha512",
         "techchallenge3.domain.nuspec"
       ]
+    },
+    "TechChallenge3.Infrastructure/1.1.0": {
+      "sha512": "uwOeX2EeVhErwLuOS0apCwV2VYYAooYhw7K92Z3E8denDNiAdo8yvXQvXVa/Oh53oJg5lWyZ/ttcwCFrf/txOQ==",
+      "type": "package",
+      "path": "techchallenge3.infrastructure/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/TechChallenge3.Infrastructure.dll",
+        "techchallenge3.infrastructure.1.1.0.nupkg.sha512",
+        "techchallenge3.infrastructure.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -3962,9 +3962,9 @@
       "Swashbuckle.AspNetCore.Annotations >= 7.1.0",
       "Swashbuckle.AspNetCore.Swagger >= 7.1.0",
       "System.Data.SqlClient >= 4.9.0",
-      "TechChallenge.Common >= 1.1.0",
-      "TechChallenge.Infrastructure >= 1.1.0",
+      "TechChallenge3.Common >= 1.3.0",
       "TechChallenge3.Domain >= 1.0.0",
+      "TechChallenge3.Infrastructure >= 1.1.0",
       "prometheus-net >= 8.2.1",
       "prometheus-net.AspNetCore >= 8.2.1"
     ]
@@ -4042,17 +4042,17 @@
             "target": "Package",
             "version": "[4.9.0, )"
           },
-          "TechChallenge.Common": {
+          "TechChallenge3.Common": {
             "target": "Package",
-            "version": "[1.1.0, )"
-          },
-          "TechChallenge.Infrastructure": {
-            "target": "Package",
-            "version": "[1.1.0, )"
+            "version": "[1.3.0, )"
           },
           "TechChallenge3.Domain": {
             "target": "Package",
             "version": "[1.0.0, )"
+          },
+          "TechChallenge3.Infrastructure": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           },
           "prometheus-net": {
             "target": "Package",

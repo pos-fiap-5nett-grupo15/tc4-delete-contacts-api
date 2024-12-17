@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeleteContact.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71a41a9bb516d466aba0fcb6797dda19a36f9b21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7abf3e94af4bf1cfb8d9a8f0021ab7c9fc179ce9")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeleteContact.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeleteContact.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

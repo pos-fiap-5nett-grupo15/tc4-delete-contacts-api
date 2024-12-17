@@ -24,3 +24,12 @@ C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\Delete
 C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\refint\DeleteContact.Infrastructure.dll
 C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.pdb
 C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\ref\DeleteContact.Infrastructure.dll
+C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.AssemblyInfo.cs
+C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.sourcelink.json
+C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.dll
+C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\refint\DeleteContact.Infrastructure.dll
+C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\obj\Debug\net8.0\DeleteContact.Infrastructure.pdb

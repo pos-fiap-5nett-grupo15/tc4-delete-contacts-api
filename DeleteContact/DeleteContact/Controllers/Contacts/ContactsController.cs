@@ -2,7 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
-using TechChallenge.Common.DTOs;
+using TechChallenge3.Common.DTOs;
 
 namespace DeleteContact.Api.Controllers.Contacts
 {
