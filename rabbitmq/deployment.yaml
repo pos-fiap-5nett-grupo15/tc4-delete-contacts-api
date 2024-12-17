@@ -19,7 +19,7 @@ spec:
       - name: delete-contact-worker
         image: fiaptech3acr.azurecr.io/tc3-delete-contact-worker:latest
         ports:
-        - containerPort: 8091
+        - containerPort: 8093
         env:
         - name: ASPNETCORE_ENVIRONMENT
           value: "Development"
@@ -34,6 +34,6 @@ spec:
     app: delete-contact-worker
   ports:
     - protocol: TCP
-      port: 8091
-      targetPort: 8091
+      port: 8093
+      targetPort: 8093
   type: ClusterIP

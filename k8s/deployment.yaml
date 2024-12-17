@@ -19,10 +19,10 @@ spec:
       - name: delete-contacts
         image: fiaptech3acr.azurecr.io/tc3-delete-contact:latest #usar tag e nome do container como variáveis no build para simplificar a reutilização.
         ports:
-        - containerPort: 8081
+        - containerPort: 8083
         env:
         - name: ASPNETCORE_URLS
-          value: "http://+:8081"
+          value: "http://+:8083"
         - name: ASPNETCORE_ENVIRONMENT
           value: "Development"
 ---
@@ -37,5 +37,5 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 8081
+      targetPort: 8083
   type: ClusterIP

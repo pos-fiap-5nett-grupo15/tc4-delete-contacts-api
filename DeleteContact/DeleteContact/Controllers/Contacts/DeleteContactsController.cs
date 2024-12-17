@@ -9,12 +9,12 @@ namespace DeleteContact.Api.Controllers.Contacts
     [ApiController]
     [Route("[controller]")]
     // TODO: Implementar autenticação/autorização
-    public class ContactsController
+    public class DeleteContactsController
         : ControllerBase
     {
         private readonly IMediator _mediator;
 
-        public ContactsController(IMediator mediator) =>
+        public DeleteContactsController(IMediator mediator) =>
             _mediator = mediator;
 
         [HttpDelete("{id}")]
