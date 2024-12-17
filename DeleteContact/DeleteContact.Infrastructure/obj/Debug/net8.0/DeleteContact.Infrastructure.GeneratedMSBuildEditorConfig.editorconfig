@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DeleteContact.Infrastructure
-build_property.ProjectDir = C:\Users\evand\OneDrive\Área de Trabalho\Projeto\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\
+build_property.ProjectDir = C:\Users\Guilherme Castro\workspace\fiap\tc3-delete-contacts-api\DeleteContact\DeleteContact.Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

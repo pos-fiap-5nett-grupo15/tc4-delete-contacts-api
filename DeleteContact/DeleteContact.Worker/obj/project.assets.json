@@ -4058,24 +4058,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\evand\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Guilherme Castro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\DeleteContact.Worker.csproj",
+      "projectUniqueName": "C:\\Users\\Guilherme Castro\\workspace\\fiap\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\DeleteContact.Worker.csproj",
       "projectName": "DeleteContact.Worker",
-      "projectPath": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\DeleteContact.Worker.csproj",
-      "packagesPath": "C:\\Users\\evand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\obj\\",
+      "projectPath": "C:\\Users\\Guilherme Castro\\workspace\\fiap\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\DeleteContact.Worker.csproj",
+      "packagesPath": "C:\\Users\\Guilherme Castro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Guilherme Castro\\workspace\\fiap\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Worker\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\evand\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Guilherme Castro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4090,11 +4085,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DeleteContact.Application.csproj": {
-              "projectPath": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DeleteContact.Application.csproj"
+            "C:\\Users\\Guilherme Castro\\workspace\\fiap\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DeleteContact.Application.csproj": {
+              "projectPath": "C:\\Users\\Guilherme Castro\\workspace\\fiap\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Application\\DeleteContact.Application.csproj"
             },
-            "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\evand\\OneDrive\\Área de Trabalho\\Projeto\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj"
+            "C:\\Users\\Guilherme Castro\\workspace\\fiap\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Guilherme Castro\\workspace\\fiap\\tc3-delete-contacts-api\\DeleteContact\\DeleteContact.Infrastructure\\DeleteContact.Infrastructure.csproj"
             }
           }
         }
@@ -4139,7 +4134,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.307/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
