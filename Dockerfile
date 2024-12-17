@@ -4,9 +4,9 @@ WORKDIR /App
 
 COPY ./DeleteContact/. ./
 
-RUN dotnet restore  ./DeleteContact.Api/DeleteContact.Api.csproj
-RUN dotnet build ./DeleteContact.Api/DeleteContact.Api.csproj
-RUN dotnet publish  ./DeleteContact.Api/DeleteContact.Api.csproj -c Release --output Out --no-restore
+RUN dotnet restore  ./DeleteContact/DeleteContact.Api.csproj
+RUN dotnet build ./DeleteContact/DeleteContact.Api.csproj
+RUN dotnet publish  ./DeleteContact/DeleteContact.Api.csproj -c Release --output Out --no-restore
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 
