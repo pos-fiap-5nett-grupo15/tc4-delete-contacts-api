@@ -1,26 +1,26 @@
-
-
 trigger:
   branches:
     include:
-      - main
+      - dev
+
   paths:
     exclude:
-      - README.md
+      - READEME.md
 
 resources:
 - repo: self
 
-variables:
-  dockerRegistryServiceConnection: '596527a0-844e-4fd1-af71-888334b640ff'
-  imageRepository: 'tc3-delete-contact'
-  containerRegistry: 'fiaptech3acr.azurecr.io'
-  dockerfilePath: 'Dockerfile'
 
-  k8s-deployment: 'k8s-deployment-yaml'
+variables:
+  dockerRegistryServiceConnection: $(_dockerRegistryServiceConnection)
+  imageRepository: $(_imageRepository)
+  containerRegistry: $(_containerRegistry)
+  dockerfilePath: $(_dockerfilePath)
+
+  k8s-deployment: $(_k8s-deployment)
   k8sPathName: 'k8s/deployment.yaml'
-  kubernetesServiceEndpoint: 'fiap-aks-service-conn'
-  kubernetesNamespace: tc3
+  kubernetesServiceEndpoint: $(_kubernetesServiceEndpoint)
+  kubernetesNamespace: $(_k8sNamespace)
   tag: '$(Build.BuildId)'
 
   vmImageName: 'ubuntu-latest'
@@ -50,9 +50,22 @@ stages:
           $(tag)
           latest
 
+  - job: Tests
+    displayName: Tests
+    dependsOn: Build
+    pool:
+      vmImage: $(vmImageName)
+    steps:
+    - task: DotNetCoreCLI@2
+      inputs:
+        command: 'test'
+        projects: '$(System.DefaultWorkingDirectory)/DeleteContact/UnitTests/UnitTests.csproj'
+        testRunTitle: 'Unit Tests'
+        requestTimeout: 600
+        
   - job: UploadArtifact
     displayName: "Upload Deployment YAML"
-    dependsOn: Build
+    dependsOn: Tests
     steps:
     - task: PublishPipelineArtifact@1
       inputs:
@@ -63,11 +76,17 @@ stages:
 - stage: Deploy
   displayName: Deploy Stage
   jobs:
-  - job: DeployDatabase
-    displayName: Deploy Sql Server to AKS
+  - job: DeployMicrosservice
+    displayName: Deploy Delete API Microservice to AKS
     steps:
       - script: ls $(System.DefaultWorkingDirectory)/k8s
         displayName: "Check folder $(System.DefaultWorkingDirectory)"
+      - script: |
+          cat $(System.DefaultWorkingDirectory)/sql-server/k8s.dev.yaml
+          sed -i 's/PLACEHOLDER_NAMESPACE/$(kubernetesNamespace)/g' $(System.DefaultWorkingDirectory)/$(k8sPathName)
+          sed -i 's/PLACEHOLDER_CONTAINER_REGISTRY/$(containerRegistry)/g' $(System.DefaultWorkingDirectory)/$(k8sPathName)
+          sed -i 's/PLACEHOLDER_IMAGE_REPOSITORY/$(imageRepository)/g' $(System.DefaultWorkingDirectory)/$(k8sPathName)
+        displayName: 'Replace variables in YAML'
       - task: kubernetes@1
         displayName: "Apply Deployment YAML"
         inputs:
