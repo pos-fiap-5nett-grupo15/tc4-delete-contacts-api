@@ -1,4 +1,5 @@
-﻿using DeleteContact.Application.DTOs.Contact.DeleteContact;
+﻿using System.Dynamic;
+using DeleteContact.Application.DTOs.Contact.DeleteContact;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
@@ -23,7 +24,24 @@ namespace DeleteContact.Api.Controllers.Contacts
         public async Task<IActionResult> DeleteByIdAsync(
             [FromRoute] int id)
         {
-            return Created(string.Empty, await _mediator.Send(new DeleteContactRequest { Id = id }));
+            try
+            {
+                if (await _mediator.Send(new DeleteContactRequest { Id = id }) is var response && !string.IsNullOrWhiteSpace(response.ErrorDescription))
+                    return BadRequest(response);
+            
+                return NoContent();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+
+                dynamic response = new ExpandoObject();
+                response.Message = e.Message;
+                response.StackTrace = e.StackTrace;
+                response.InnerException = e.InnerException;
+
+                return BadRequest(response);
+            }
         }
     }
 }
