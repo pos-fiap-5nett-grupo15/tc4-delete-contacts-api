@@ -11,15 +11,15 @@ resources:
 - repo: self
 
 variables:
-  dockerRegistryServiceConnection: '596527a0-844e-4fd1-af71-888334b640ff'
-  imageRepository: 'tc3-delete-contact-worker'
-  containerRegistry: 'fiaptech3acr.azurecr.io'
-  dockerfilePath: 'rabbitmq/Dockerfile'
+  dockerRegistryServiceConnection: $(_dockerRegistryServiceConnection)
+  imageRepository: $(_imageRepository)
+  containerRegistry: $(_containerRegistry)
+  dockerfilePath: $(_dockerfilePath)
 
-  k8s-deployment: 'k8s-deployment-yaml'
+  k8s-deployment: $(_k8s-deployment)
   k8sPathName: 'rabbitmq/deployment.yaml'
-  kubernetesServiceEndpoint: 'fiap-aks-service-conn'
-  kubernetesNamespace: tc3
+  kubernetesServiceEndpoint: $(_kubernetesServiceEndpoint)
+  kubernetesNamespace: $(_k8sNamespace)
   tag: '$(Build.BuildId)'
 
   vmImageName: 'ubuntu-latest'
