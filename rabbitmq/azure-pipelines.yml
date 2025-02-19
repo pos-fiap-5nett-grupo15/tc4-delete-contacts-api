@@ -63,11 +63,18 @@ stages:
 - stage: Deploy
   displayName: Deploy Stage
   jobs:
-  - job: DeployDatabase
-    displayName: Deploy to AKS
+  - job: DeployMicrosservice
+    displayName: Deploy Delete API Microservice to AKS
     steps:
       - script: ls $(System.DefaultWorkingDirectory)/k8s
         displayName: "Check folder $(System.DefaultWorkingDirectory)"
+      - script: |
+          cat $(System.DefaultWorkingDirectory)/sql-server/k8s.dev.yaml
+          sed -i 's/PLACEHOLDER_NAMESPACE/$(kubernetesNamespace)/g' $(System.DefaultWorkingDirectory)/$(k8sPathName)
+          sed -i 's/PLACEHOLDER_CONTAINER_REGISTRY/$(containerRegistry)/g' $(System.DefaultWorkingDirectory)/$(k8sPathName)
+          sed -i 's/PLACEHOLDER_IMAGE_REPOSITORY/$(imageRepository)/g' $(System.DefaultWorkingDirectory)/$(k8sPathName)
+          sed -i 's/PLACEHOLDER_TAG/$(tag)/g' $(System.DefaultWorkingDirectory)/$(k8sPathName)
+        displayName: 'Replace variables in YAML'
       - task: kubernetes@1
         displayName: "Apply Deployment YAML"
         inputs:
