@@ -41,11 +41,11 @@ namespace DeleteContact.Application.Handlers.Contact.DeleteContact
                 {
                     await _contactService.UpdateStatusByIdAsync(contact, ContactSituationEnum.PENDENTE_DELECAO);
 
-                    // await PublishByRoutingKey(
-                    //     request.Id,
-                    //     _rabbitMQProducerSettings,
-                    //     _rabbitMQProducerSettings.RoutingKey,
-                    //     ct);
+                    await PublishByRoutingKey(
+                        request.Id,
+                        _rabbitMQProducerSettings,
+                        _rabbitMQProducerSettings.RoutingKey,
+                        ct);
 
                     return new DeleteContactResponse();
                 }
@@ -53,11 +53,11 @@ namespace DeleteContact.Application.Handlers.Contact.DeleteContact
                 {
                     _logger.LogError($"An error occurr while deleting contact ID '{request.Id}'.");
 
-                    // await PublishByRoutingKey(
-                    //     request.Id,
-                    //     _rabbitMQProducerSettings,
-                    //     _rabbitMQProducerSettings.RoutingKeyInvalid,
-                    //     ct);
+                    await PublishByRoutingKey(
+                        request.Id,
+                        _rabbitMQProducerSettings,
+                        _rabbitMQProducerSettings.RoutingKeyInvalid,
+                        ct);
 
                     return new DeleteContactResponse();
                 }
@@ -66,11 +66,11 @@ namespace DeleteContact.Application.Handlers.Contact.DeleteContact
             {
                 _logger.LogCritical(e, $"An error occurr while deleting contact ID '{request.Id}': {e.Message}.");
 
-                // await PublishByRoutingKey(
-                //     request.Id, 
-                //     _rabbitMQProducerSettings, 
-                //     _rabbitMQProducerSettings.RoutingKeyInvalid,
-                //     ct);
+                await PublishByRoutingKey(
+                    request.Id, 
+                    _rabbitMQProducerSettings, 
+                    _rabbitMQProducerSettings.RoutingKeyInvalid,
+                    ct);
 
                 throw;
             }
